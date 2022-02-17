@@ -42,10 +42,9 @@ Nome: {nome_do_colaborador}
 14. Crie e envie a tag `0.1.0` para o Github, ainda na branch `feature/level-1`;
 15. Faça um PR da branch `feature/level-1` para a branch `develop`;
 16. Faça um PR da branch `develop` para a branch `main`;
-17. Crie uma release com a tag `0.1.0`;
-18. Crie um projeto Java chamado `java101-feedbox` e, nele, crie as classes como mostrado no diagrama abaixo, seguindo as regras de encapsulamento, visibilidade e construtores
-    - O método `sendFeedback()` deve possuir os parâmetros `to`, do tipo `Collaborator`, e `content`, do tipo `String`, e será utilizado para instanciar um objeto do tipo `Feedback`;
-    - O método `markAsRead()` deve somente alterar a flag `isRead` para verdadeiro;
+17. Crie um projeto Java chamado `java101-feedbox` e, nele, crie as classes como mostrado no diagrama abaixo, seguindo as regras de encapsulamento, visibilidade e construtores
+- O método `sendFeedback()` deve possuir os parâmetros `to`, do tipo `Collaborator`, e `content`, do tipo `String`, e será utilizado para instanciar um objeto do tipo `Feedback`;
+- O método `markAsRead()` deve somente alterar a flag `isRead` para verdadeiro;
 
 ![level-1-project](./level-1-project.png)
 
